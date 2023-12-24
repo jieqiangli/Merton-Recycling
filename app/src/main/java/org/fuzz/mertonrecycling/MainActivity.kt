@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
                     Column {
-                        Input("SW19 2NR")
+                        Input("Support coming")
                         Content()
                     }
                 }
@@ -74,7 +74,7 @@ fun Content() {
 fun GreetingPreview() {
     MertonRecyclingTheme {
         Column {
-            Input("SW19 2NR")
+            Input("Support coming")
             Content()
         }
     }
