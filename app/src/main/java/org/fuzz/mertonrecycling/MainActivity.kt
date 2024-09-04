@@ -54,7 +54,7 @@ fun Input(name: String) {
 
 @Composable
 fun Content() {
-    val url = "https://myneighbourhood.merton.gov.uk/Wasteservices/WasteServices.aspx?uprn=48053547&Address=9"
+    val url = "https://myneighbourhood.merton.gov.uk/Wasteservices/WasteServices.aspx?uprn=48053547"
     AndroidView(factory = {
         WebView(it).apply {
             layoutParams = ViewGroup.LayoutParams(
